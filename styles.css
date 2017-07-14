@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #e1f0f8;
+}
+p {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+#main {
+	width: 1145px;
+	height: auto;
+	margin: auto;
+}
+.header {
+	height: 215px;
+	background: white;
+}
+.header img {
+	padding-left: 20px;
+}
+.rightheader {
+	width: 250px;
+	height: auto;
+	float: right;
+	padding-top: 60px;
+}
+.rightheader p:first-child {
+	font-size: 18px;
+}
+.rightheader p:nth-child(2) {
+	font-size: 30px;
+}
+.rightheader:nth-child(3) {
+	padding-top: 85px;
+	text-align: right;
+    margin-right: 95px;
+}
+.rightheader a {
+	font-size: 22px;
+	color: #f36240;
+}
+.navigation li {
+	padding: 10px 53px;
+	font-size: 26px;
+	border-right: 1px solid black;
+}
+.navigation li:last-child {
+	border:0;
+}
+.navigation li:hover {
+	background-color: #7bc3d5;
+}
+.underheader {
+	width: 1145px;
+	height: 175px;
+}
+.leftmenu {
+	width: 240px;
+	height: 470px;
+	background-color: white;
+	float: left;
+}
+.leftmenu ul {
+	margin: 25px;
+}
+.leftmenu li {
+	display: list-item;
+	padding-bottom: 17px;
+	text-decoration: underline;
+}
+.leftmenu li:first-child {
+	text-decoration: none;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.choicewindow {
+	width: 830px;
+	height: 610px;
+	background-color: white;
+	float: right;
+	padding: 30px 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+.choiceleft {
+	float: left;
+}
+.choiceleft p {
+	padding-left: 90px;
+	color: grey;
+}
+.choiceleft, .choiceright {
+	padding: 30px;
+}
+.choiceright {
+	float: right;
+}
+.choiceright ul {
+	margin-bottom: 50px;
+}
+.choiceright li {
+	list-style-type: disc;
+	display: list-item;
+	color: #eb5825;
+}
+.choiceright li span {
+	color: black;
+}
+.choiceright img {
+	margin: 20px 0 20px 0;
+}
+.offer {
+	margin-top: 20px;
+}
+.offer span {
+	display: table-cell;
+	padding-right: 50px;
+}
+.offer span p:nth-child(2) {
+	color: #eb5825;
+}
+.getdiscount {
+	width: 310px;
+	height: 45px;
+	background-color: #eb5825;
+	border-radius: 5px;
+}
+.getdiscount p {
+	color: white;
+	padding: 11px 38px;
+	font-size: 20px;
+}
+.forknow {
+	width: 830px;
+	height: 480px;
+	background-color: white;
+	float: right;
+	padding: 30px 25px;
+	border-right: 5px;
+	margin-bottom: 80px;
+}
+.forknow p {
+	padding-left: 100px;
+}
+.reviews {
+	width: 830px;
+	height: 320px;
+	background-color: white;
+	float: right;
+	padding: 30px 25px;
+	border-right: 5px;
+}
+.absolute h2 {
+	position: absolute;
+    margin-top: -80px;
+    left: 365px;
+}
+.absolute span {
+	position: absolute;
+    margin-top: -80px;
+    right: 105px;
+}
